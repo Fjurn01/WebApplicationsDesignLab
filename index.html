@@ -20,36 +20,60 @@
       .footer {
         border-radius: 35px;
         background: linear-gradient(to bottom, rgb(160, 160, 160), rgb(100, 100, 100));     
-        
+        margin-top: 30vh;
        }
        .footer {
-          display:inline-block;
-          margin-left: 10%;
+          margin-left: 0vw;
+          padding-top: 2vh;
+          padding-bottom: 1vh;
+       }
+       .footer > ul > a{
+        padding-left: 6vw;
        }
        /* /footer */
       /* index */
-      #indextitle > div{
+      #login {
+        margin-left: 80vw;
+      }
+      #title > div{
           font-weight: bolder;
           font-style: italic;
           font-size: 50px;
           text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
       }
-      #indextitletop{
+      #tittletop{
         padding-top: 30%;
       }
-      #indeximage{
+      #signup {
+          margin-top: 5vh;
+          border: 1px black solid;
+          margin-left: 9vw;
+          width: 300px ;
+      }
+      #image{
         margin-top: 10%;
         margin-left: 20%;
         width: 80%;
       }
       @media (max-width:800px){
-       #indextitle > #indextitletop {
+       #title > #tittletop {
           font-size: 35px;
+          margin-left: 1%;
         }
-        #indextitle > #indextitlebottom {
+        #title > #tittlebottom {
           font-size: 35px;
+          margin-left: 1%;
+
         }
-        
+        #signup > a{
+          margin-left: 1%;
+          width:100px;
+          font-size: 35px;
+          text-align: center;
+        }
+        #image{
+          margin: 5vh 0px 0px 0px 
+        }
         
       }
       /* /index */
@@ -58,16 +82,23 @@
 </head>
 <body>
     <!-- Index page -->
-    <div id="indexpage">
+     <div id="login">
+      <a href="">Log-In</a>
+
+    </div>
+    <div id="page">
         <div class="container text-center">
             <div class="row">
               <div class="col">
-                <img src="images/index.jpg" alt="" id="indeximage">
+                <img src="zimages/index.jpg" alt="" id="image">
               </div>
               <div class="col">
-                <div id="indextitle">
-                <div id="indextitletop">Journaling</div>
-                <div id="indextitlebottom">Made Easier</div>
+                <div id="title">
+                <div id="tittletop">Journaling</div>
+                <div id="tittlebottom">Made Easier</div>
+                <div id="signup">
+                    <a href=" "> Sign up</a>
+                </div>
               </div>
               </div>
             </div>
@@ -76,11 +107,11 @@
     <!-- /Index page -->
     <!-- Footer template! -->
     <div class="footer">
-        <ul>
-            <a href=""><li>About us</li></a>
-            <a href=""><li>Contact us</li></a>
-            <a href=""><li>Privacy Policy</li></a>
-            <a href=""><li>Frequently Asked Questions</li></a>
+        <ul class="row">
+            <a href="" class="col"><li>About us</li></a>
+            <a href="" class="col"><li>Contact us</li></a>
+            <a href="" class="col"><li>Privacy Policy</li></a>
+            <a href="" class="col"><li>FAQ</li></a>
         </ul>
     </div>
     <!-- /Footer template -->
