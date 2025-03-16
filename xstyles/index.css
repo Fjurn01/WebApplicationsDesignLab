@@ -7,21 +7,7 @@
       font-size: small;
     }
   }
-  /* footer */
-  .footer {
-    border-radius: 35px;
-    background: linear-gradient(to bottom, rgb(160, 160, 160), rgb(100, 100, 100));     
-    margin-top: 30vh;
-   }
-   .footer {
-      margin-left: 0vw;
-      padding-top: 2vh;
-      padding-bottom: 1vh;
-   }
-   .footer > ul > a{
-    padding-left: 6vw;
-   }
-   /* /footer */
+
   /* index */
   #login {
     margin-left: 80vw;
@@ -38,7 +24,7 @@
   #signup {
       margin-top: 5vh;
       border: 1px black solid;
-      margin-left: 9vw;
+      margin-left: -3%;
       width: 300px ;
   }
   #image{
@@ -57,7 +43,6 @@
 
     }
     #signup > a{
-      margin-left: 10%;
       width:100px;
       font-size: 35px;
       text-align: center;
@@ -67,3 +52,19 @@
     }
     
   }
+
+    /* footer */
+    .footer {
+      border-radius: 35px;
+      background: linear-gradient(to bottom, rgb(160, 160, 160), rgb(100, 100, 100));     
+      margin-top: 30vh;
+     }
+     .footer {
+        margin-left: 0vw;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+     }
+     .footer > ul > a{
+      padding-left: 6vw;
+     }
+     /* /footer */
