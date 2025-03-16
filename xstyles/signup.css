@@ -1,0 +1,15 @@
+  /* form */
+  #form {
+    display: flex;
+}
+#form {
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 40%;
+    align-items: center;
+}
+#login {
+    margin-left: 45% ;
+}

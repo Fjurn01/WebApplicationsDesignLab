@@ -1,0 +1,30 @@
+        /* common */
+        #title {
+            margin-top : 5%;
+            margin-left: 42%;
+        }
+        /* /common */
+      
+
+        /* login */
+
+        /* /login */
+                /* login */
+                #form {
+                    display: flex;
+                }
+                #form {
+                    flex-direction: column;
+                    width: 200px;
+                    text-align: center;
+                    margin-top: 6%;
+                    margin-left: 40%;
+                    align-items: center;
+                }
+                /* /form */
+                
+                /* app */
+
+                /* /app */
+        
+                /* /login */
