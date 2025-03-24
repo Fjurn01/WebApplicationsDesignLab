@@ -7,13 +7,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../xstyles/common.css">
   <link rel="stylesheet" href="../xstyles/friends.css">
+  <style>
+    .image-fit{
+      height: 200px;
+        object-fit: cover;
+    }
+    .top-margin{
+      margin-top: 5%;
+    }
+  </style>
   </head>
 <body>
     <!-- temp -->
     <div id="index">
         <a href="../index.html">Back to page</a>
     </div>
-    <h1>Friends</h1>
+    <div id="title">
+      <h1>Friends</h1>
+    </div>
     <!-- /temp -->
     <!-- toast -->
      <div id="toast">
@@ -30,6 +41,124 @@
           </div>
      </div>
      <!-- /toast -->
+     <div class="container" >
+      <div class="row">
+          <div class="col">
+            <div class="card" style="width: 13rem;">
+              <img src="../zimages/friendsAlex.jpg" class="card-img-top image-fit" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Alex</h5>
+                <p class="card-text">You haven't started a conversation yet</p>
+                <a href="#" class="btn btn-primary">Send a message</a>
+                <div class="dropdown" >
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Common notes
+                  </button>
+                  <ul class="dropdown-menu" >
+                    <li><a href="">No common notes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 13rem;">
+              <img src="../zimages/friendsGandhi.jpg" class="card-img-top image-fit" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gandhi</h5>
+                <p class="card-text">Peace is useless</p>
+                <a href="#" class="btn btn-primary">Respond to message</a>
+                <div class="dropdown" >
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Common notes
+                  </button>
+                  <ul class="dropdown-menu" >
+                    <li><a href="">Weekend's Show</a></li>
+                    <li><a href="">Friday afternoon</a></li>
+                    <li><a href="">My wedding</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 13rem;">
+              <img src="../zimages/friendsRing.jpg" class="card-img-top image-fit" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ring</h5>
+                <p class="card-text">Do you have any rings?</p>
+                <a href="#" class="btn btn-primary">Send a message</a>
+                <div class="dropdown" >
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Common notes
+                  </button>
+                  <ul class="dropdown-menu" >
+                    <li><a href="">No common notes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 13rem;">
+              <img src="../zimages/friendsAlex.jpg" class="card-img-top image-fit" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Alex</h5>
+                <p class="card-text">You haven't started a conversation yet</p>
+                <a href="#" class="btn btn-primary">Send a message</a>
+                <div class="dropdown" >
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Common notes
+                  </button>
+                  <ul class="dropdown-menu" >
+                    <li><a href="">No common notes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 13rem;">
+              <img src="../zimages/friendsGandhi.jpg" class="card-img-top image-fit" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gandhi</h5>
+                <p class="card-text">Peace is useless</p>
+                <a href="#" class="btn btn-primary">Respond to message</a>
+                <div class="dropdown" >
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Common notes
+                  </button>
+                  <ul class="dropdown-menu" >
+                    <li><a href="">Weekend's Show</a></li>
+                    <li><a href="">Friday afternoon</a></li>
+                    <li><a href="">My wedding</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 13rem;">
+              <img src="../zimages/friendsRing.jpg" class="card-img-top image-fit" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ring</h5>
+                <p class="card-text">Do you have any rings?</p>
+                <a href="#" class="btn btn-primary">Send a message</a>
+                <div class="dropdown" >
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Common notes
+                  </button>
+                  <ul class="dropdown-menu" >
+                    <li><a href="">No common notes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
      <!-- pagination -->
       <div id="pagination">
      <nav aria-label="...">
@@ -37,8 +166,8 @@
           <li class="page-item ">
             <span class="page-link">Previous</span>
           </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item active" aria-current="page">
+          <li class="page-item active "><a class="page-link" href="#">1</a></li>
+          <li class="page-item" aria-current="page">
             <span class="page-link">2</span>
           </li>
           <li class="page-item"><a class="page-link" href="#">3</a></li>

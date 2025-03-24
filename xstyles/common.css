@@ -1,7 +1,12 @@
-        /* common */
+ * {
+    box-sizing: border-box;
+ }
+       
+       /* common */
         #title {
             margin-top : 5%;
             margin-left: 42%;
+            margin-bottom: 2%;
         }
         /* /common */
       
